@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font for the entire page */
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+}
+
+li {
+    margin-bottom: 15px; /* Increase spacing between menu options */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px; /* Increase font size for menu options */
+    transition: color 0.3s; /* Add a smooth transition effect on hover */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffcc00; /* Change link color on hover */
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Optional: Add some basic styling to differentiate the content area */
+.content {
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
